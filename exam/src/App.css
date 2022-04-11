@@ -1,7 +1,24 @@
 .App {
   text-align: center;
+  /* background-color: brown; */
+  border: 2px solid brown ;
+  margin:25px;
+  border-radius: 7px;
+  
+  
 }
-
+.banner{
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  background-color: brown;
+  border: none;
+  margin: 10px;
+  color: white;;
+  height: 23px;
+  border-radius: 5px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
